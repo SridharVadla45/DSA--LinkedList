@@ -1,8 +1,10 @@
 package src.binaryLinkedListToInteger;
 
+import com.sun.source.tree.LiteralTree;
+
 public class Solution {
 
-    private  class ListNode {
+    public class ListNode {
       int val;
       ListNode next;
       ListNode() {}
@@ -33,4 +35,6 @@ public class Solution {
         return size;
 
     }
+
+
 }
